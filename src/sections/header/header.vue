@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import Logo from "~images/logo.png"
+import logo from "~images/logo.png"
 </script>
 
 <template>
   <div class="header">
     <div class="container">
       <a class="header__logo" href="javascript:void(0)">
-        <img :src=Logo alt="Logo">
+        <img :src=logo alt="Logo">
       </a>
       <ul class="header__menu">
         <li class="header__menu-item"><a href="javascript:void(0)">Inicio</a></li>
@@ -20,5 +20,5 @@ import Logo from "~images/logo.png"
 </template>
 
 <style>
-@import url("./header.css");
+@import './header.scss';
 </style>

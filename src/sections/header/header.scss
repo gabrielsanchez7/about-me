@@ -1,0 +1,36 @@
+.header {
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+
+  &__logo img {
+    display: inline-block;
+    width: 150px;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+
+    &-item a {
+      color: white;
+      font-weight: 500;
+      opacity: 0.3;
+      transition: 0.25s;
+
+      &:hover {
+        color: $primaryColor;
+        opacity: 1;
+      }
+      
+    }
+
+  }
+  
+}
